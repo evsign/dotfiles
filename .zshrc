@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/evsign/.oh-my-zsh
+export ZSH=/home/evsign/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,11 +53,12 @@ plugins=(git composer command-not-found common-aliases npm ssh-agent tmux web-se
 ZSH_TMUX_AUTOSTART_ONCE="true"
 # User configuration
 
-  export PATH="~/.composer/vendor/bin:~/.local/bin::/home/evsign/.nvm/versions/node/v5.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="~/.composer/vendor/bin:~/.local/bin::/home/evsign/.nvm/versions/node/v5.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export EDITOR='vim'
 # export MANPATH="/usr/local/man:$MANPATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+export TERM = xterm-256color
 
 source $ZSH/oh-my-zsh.sh
 source ~/.phpbrew/bashrc
